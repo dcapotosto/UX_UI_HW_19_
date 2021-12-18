@@ -7,13 +7,18 @@ p {
   font-style: italic;
   color: #182FAA;
 }
-h1 h2 h3 {
+h1 {
   font-family: Helvetica, sans-serif;
-  font-style: condensed bold;
+  font-style: bold;
+  color: #182FAA;
+}
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-style: bold;
   color: #182FAA;
 }
 header {
-  background-color: #373738;
+  background-color: #E7E9F0;
   padding: 15px;
 }
 header ul {
@@ -23,12 +28,17 @@ header ul {
 header li {
   display: inline-block;
   padding: 0px 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
 }
 header p {
   display: inline-block;
 }
+header img {
+  width: 100px;
+}
 .heroImg {
-  background-color: #EBEBEB;
+  background-color: #E7E9F0;
   padding: 100px 15px;
 }
 .content {
